@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUNÇÕES ARITMÉTICAS</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="bloco0">
+        <form action="php/abs.php" method="get">
+          <fieldset>
+            <legend><b>Função Abs</b></legend>
+            <p>
+              Retorna o valor absoluto de um número. Esse valor é o número sem o
+              seu sinal.
+            </p>
+            <label>Informe o valor para retornar o seu número real:</label>
+            <br />
+            <input type="number" name="abs" id="abs" />
+            <br /><br />
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <br /><br />
+      <div class="bloco1">
+        <form action="php/hip.php" method="get">
+          <fieldset>
+            <legend><b>Função Hypot</b></legend>
+            <p>
+              O teorema de Pitágoras diz que o quadrado da hipotenusa é igual à
+              soma dos quadrados dos catetos. a² = b² + c² onde: a é hipotenusa,
+              b é cateto1 e c é cateto2.
+            </p>
+            <label>Informe o cateto 1:</label> <br />
+            <input type="number" name="cat1" id="cat1" />
+            <br />
+            <label>Informe o cateto 2:</label> <br />
+            <input type="number" name="cat2" id="cat2" />
+            <br>
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <br /><br />
+      <div class="bloco2">
+        <form action="php/base_convert.php" method="get">
+          <fieldset>
+            <legend><b>Função Base Convert</b></legend>
+            <p>Converte um número entre bases arbitrárias.</p>
+            <label>Informe o número:</label><br />
+            <input type="number" name="numer" id="base_convert" />
+            <br>
+            <label>Informe a base:</label><br>
+            <input type="number" name="base1" id="base_convert" />
+            <br>
+            <label>Informe a base convertida:</label><br>
+            <input type="number" name="baseconv" id="base_convert" />
+            <br>
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <br /><br />
+      <div class="bloco2">
+        <form action="php/intdiv.php" method="get">
+          <fieldset>
+            <legend><b>Função IntDiv</b></legend>
+            <p>
+              Retorna o resultado da divisão de dois números, arredondando o
+              resultado para o número inteiro mais próximo.
+            </p>
+            <label>Informe o dividendo:</label><br />
+            <input type="number" name="num1" id="intdiv_num1" />
+            <br /><br />
+            <label>Informe o divisor:</label><br />
+            <input type="number" name="num2" id="intdiv_num2" />
+            <br /><br />
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <br /><br />
+      <div class="bloco2">
+        <form action="php/min.php" method="get">
+          <fieldset>
+            <legend><b>Função Min</b></legend>
+            <p>Retorna o menor valor de uma lista de argumentos.</p>
+            <label>Informe o primeiro número:</label><br />
+            <input type="number" name="numeroo" id="min_num1" />
+            <br />
+            <label>Informe o segundo número:</label><br />
+            <input type="number" name="numero02" id="min_num2" />
+            <br>
+            <label>Informe o terceiro número:</label><br />
+            <input type="number" name="numero03" id="min_num2" />
+            <br />
+            <button type="submit" name="submit" id="submitioo" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="bloco2">
+        <form action="php/max.php" method="get">
+          <fieldset>
+            <legend><b>Função Max</b></legend>
+            <p>Retorna o maior valor de uma lista de argumentos.</p>
+            <label>Informe o primeiro número:</label><br />
+            <input type="number" name="numerooo1" id="max_num1" />
+            <br />
+            <label>Informe o segundo número:</label><br />
+            <input type="number" name="numerooo2" id="max_num2" />
+            <br />
+            <label>Informe o terceiro número:</label><br />
+            <input type="number" name="numerooo3" id="max_num2" />
+            <br />  
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="bloco2">
+        <form action="php/pi.php" method="get">
+          <fieldset>
+            <legend><b>Função Pi</b></legend>
+            <p>Retorna o valor de Pi (π).</p>
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="bloco2">
+        <form action="php/pow.php" method="get">
+          <fieldset>
+            <legend><b>Função Pow</b></legend>
+            <p>Retorna a base elevada à potência do expoente.</p>
+            <label>Informe a base:</label><br />
+            <input type="number" name="base" id="pow_base" />
+            <br />
+            <label>Informe o expoente:</label><br />
+            <input type="number" name="expoente" id="pow_expoente" />
+            <br />
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <br /><br />
+      <div class="bloco2">
+        <form action="php/sin.php" method="get">
+          <fieldset>
+            <legend><b>Função Sin</b></legend>
+            <p>Retorna o seno de um ângulo especificado em radianos.</p>
+            <label>Informe o ângulo em radianos:</label><br />
+            <input type="number" name="angulo" id="sin_angulo" />
+            <br /><br />
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <br /><br />
+      <div class="bloco2">
+        <form action="php/cos.php" method="get">
+          <fieldset>
+            <legend><b>Função Cos</b></legend>
+            <p>Retorna o cosseno de um ângulo especificado em radianos.</p>
+            <label>Informe o ângulo em radianos:</label><br />
+            <input type="number" name="angulo1" id="cos_angulo" />
+            <br /><br />
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <br /><br />
+      <div class="bloco2">
+        <form action="php/tan.php" method="get">
+          <fieldset>
+            <legend><b>Função Tan</b></legend>
+            <p>Retorna a tangente de um ângulo especificado em radianos.</p>
+            <label>Informe o ângulo em radianos:</label><br />
+            <input type="number" name="angulo" id="tan_angulo" />
+            <br /><br />
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+      <br /><br />
+      <div class="bloco2">
+        <form action="php/sqrt.php" method="get">
+          <fieldset>
+            <legend><b>Função Sqrt</b></legend>
+            <p>Retorna a raiz quadrada de um número.</p>
+            <label>Informe o número:</label><br />
+            <input type="number" name="numero" id="sqrt_numero" />
+            <br /><br />
+            <button type="submit" name="submit" id="submit" onclick="verificar()">VERIFICAR</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+  </body>
+</html>
